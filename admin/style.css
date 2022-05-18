@@ -1,0 +1,73 @@
+
+.head
+{
+  display: inline-block;
+  background-color: beige;
+  width: 100%;
+  height: 75px;
+  
+}
+
+.head1
+{
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: x-large;
+  padding-right: 70px;
+}
+
+
+.profile
+{
+  background-image: url("ack.jpg");
+  background-color: beige; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.home{
+  padding-left: 30px; 
+  text-decoration:none;
+}
+
+
+.resultgrid
+{
+  width: 50%;
+  height:100%;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+  border-radius: 0px;
+}
+
+.results
+{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.result1
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-top: 60px;
+}
+
+
+.logo
+{
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: black;
+  font-size: 30px;
+  
+}
+
+.resultsss
+{
+  background-color: aqua; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
